@@ -1,0 +1,36 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color:khaki;
+    border: 3px solid black;
+    margin: 10px;
+    display: inline-block;
+}
+
+#middle {
+    background-color:darkseagreen;
+}
+
+#static #middle {
+    position: static;
+    top: 100px;
+}
+
+#relative #middle {
+    position: relative;
+    top: 50px;    /* 원래 위치에서 위쪽으로부터 50px 떨어짐 */
+    left: 50px;   /* 원래 위치에서 왼쪽으로부터 50px 떨어짐 */
+}
+
+#absolute #middle {
+    background-color:indianred;
+    /* position: absolute; */
+    /* top: 30px; */
+}
+
+#fixed #middle {
+    background-color:rgb(159, 100, 218);
+    position: fixed;
+    top: 0;
+    left: 0;
+}

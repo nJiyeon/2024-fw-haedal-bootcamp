@@ -1,0 +1,25 @@
+h1 {
+    background-color: khaki;
+    border: 3px solid black;
+    /* display: inline; */
+
+    /* width: 500px; */
+}
+
+span {
+    background-color:cornflowerblue;
+    border: 3px solid black;
+    /* display: block; */
+
+    /* width: 500px; */
+}
+
+div {
+    background-color: darkolivegreen;
+    border: 3px solid black;
+
+    height: 200px;
+    width: 200px;
+    /* display: inline; */
+    /* display: inline-block; */
+}

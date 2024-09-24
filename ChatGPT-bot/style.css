@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+
+body{
+    background-color:aliceblue;
+}
+.container{
+    display:flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header{
+    display: flex;
+    align-items: enter;
+    justify-content: center;
+    color:black;
+    border-bottom: 1px solid black;
+    height: 45px;
+}
+.header h3{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.info{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.info a{
+    color: rgb(76, 74, 92);
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none; /*하이퍼링크 밑줄 없애기 */
+}
+.info a:hover{
+    /* 마우스 올리면 색 바뀌도록 하는 설정 */
+    color: black;
+}
+.input-container{
+    display: flex;
+    align-items: cetnter;
+    justify-content: center;
+}
