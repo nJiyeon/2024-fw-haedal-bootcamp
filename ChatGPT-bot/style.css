@@ -11,15 +11,15 @@ body{
 }
 .header{
     display: flex;
-    align-items: enter;
+    align-items: center;
     justify-content: center;
     color:black;
     border-bottom: 1px solid black;
-    height: 45px;
+    height: 40px;
 }
 .header h3{
     font-size: 17px;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .info{
@@ -37,8 +37,22 @@ body{
     /* 마우스 올리면 색 바뀌도록 하는 설정 */
     color: black;
 }
-.input-container{
+.input-container {
     display: flex;
-    align-items: cetnter;
+    align-items: center;
     justify-content: center;
+    width: 100%; /* 가로 폭을 100%로 설정 */
+    max-width: 600px; /* 최대 너비를 제한 */
+    margin: 0 auto; /* 중앙에 위치하도록 설정 */
+}
+
+input {
+    width: 90%; /* 버튼을 제외한 공간에 가득 차도록 설정 */
+    padding: 10px; /* padding으로 검색창을 좀 더 크게 보이게 */
+    font-size: 16px; /* 글자 크기를 키워서 더 보기 좋게 */
+}
+
+button {
+    width: 40px; /* 버튼의 크기를 설정 */
+    height: 40px; /* 버튼의 높이도 일치시키기 */
 }
