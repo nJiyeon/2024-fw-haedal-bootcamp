@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+
+body{
+    background-color:aliceblue;
+}
+.container{
+    display:flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    border-bottom: 1px solid black;
+    height: 40px;
+}
+.header h3{
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.info{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.info a{
+    color: rgb(76, 74, 92);
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none; /*하이퍼링크 밑줄 없애기 */
+}
+.info a:hover{
+    /* 마우스 올리면 색 바뀌도록 하는 설정 */
+    color: black;
+}
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* 가로 폭을 100%로 설정 */
+    max-width: 600px; /* 최대 너비를 제한 */
+    margin: 0 auto; /* 중앙에 위치하도록 설정 */
+}
+
+input {
+    width: 90%; /* 버튼을 제외한 공간에 가득 차도록 설정 */
+    padding: 10px; /* padding으로 검색창을 좀 더 크게 보이게 */
+    font-size: 16px; /* 글자 크기를 키워서 더 보기 좋게 */
+}
+
+button {
+    width: 40px; /* 버튼의 크기를 설정 */
+    height: 40px; /* 버튼의 높이도 일치시키기 */
+}
+.chat-container {
+    flex: 1;
+}
+
+.chat-box {
+    display:flex;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+#chat-log {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+#chat-log i {
+    margin-right: 10px;
+    color: #b59696;
+    border-radius: 5px;
+}
+
+.bot, .user {
+    display: flex;
+    align-items: flex-start;
+    color: #131212;
+    width: 100%;
+    padding: 15px 7px 15px 10px;
+    border-radius: 6px;
+}
+
+.bot {
+    background-color: #ffffff;
+}
+
+#chat-log #user-icon i {
+    background-color: #31a688;
+    padding: 10px 11px;
+}
+
+#chat-log #bot-icon i {
+    background-color: #9a6ecc;
+    padding: 10px 11px;
+}
